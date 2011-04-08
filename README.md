@@ -3,6 +3,8 @@
 WabbitMQ is a Clojure messaging library for use with RabbitMQ. It wraps RabbitMQ's Java AMQP client
 library (v2.2.0).
 
+**This particular fork uses clj-json (which is backed by Jackson) to perform the json encoding and decoding.**
+
 ## Usage
 
 First add the following to your `project.clj`:
